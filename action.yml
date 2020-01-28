@@ -1,0 +1,9 @@
+name: "S3 Cloudfront Sync"
+description: "Sync a directory to S3 & invalidate cloudfront"
+author: UHKim
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: orange
